@@ -2,7 +2,7 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <title>Erdőtisztítás</title>
+    <title><span data-i18n="cleaning_title">Erdőkitermelés</span></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="ForTransRek S.R.L — Fakitermelés, erdészeti szolgáltatások és faanyag szállítás Románia területén.">
 <link rel="icon" type="image/png" href="img/logo/logo.jpg">
@@ -20,9 +20,9 @@
             <li class="back-button">
     <a href="index.html">← Vissza</a>
 </li>
-            <li><a href="index.html">Főoldal</a></li>
-            <li><a href="termekeink.html">Termékeink</a></li>
-            <li><a href="kapcsolat.html">Kapcsolat</a></li>
+            <li><a href="index.html"><span data-i18n="home">Főoldal</span></a></li>
+            <li><a href="termekeink.html"><span data-i18n="products">Termékeink</span></a></li>
+            <li><a href="kapcsolat.html"><span data-i18n="contact">Kapcsolat</span></a></li>
             <li class="lang-switch">
         <button onclick="setLanguage('hu')" class="lang-btn" title="Magyar">🇭🇺</button>
         <button onclick="setLanguage('ro')" class="lang-btn" title="Română">🇷🇴</button>
@@ -33,16 +33,16 @@
 
 <main>
     <div class="container">
-        <h1>Erdőtisztítás</h1>
-        <p>Erdők karbantartása, tisztítása és előkészítése.</p>
+        <h1><span data-i18n="cleaning_title">Erdőkitermelés</span></h1>
+        <p><span data-i18n="cleaning_text">Erdők kitermelése és előkészítése.</span></p>
     </div>
 </main>
 
 <footer>
     <div class="footer-content">
         <h3>ForTransRek S.R.L</h3>
-        <p>Fakitermelés és erdészeti szolgáltatások</p>
-        <p class="footer-copy">© 2026 ForTransRek — Minden jog fenntartva.</p>
+        <p><span data-i18n="footer_desc">Fakitermelés és erdészeti szolgáltatások</span></p>
+        <p class="footer-copy">© 2026 ForTransRek S.R.L - <span data-i18n="footer_rights">Minden jog fenntartva</span></p>
     </div>
 </footer>
 
@@ -77,6 +77,13 @@ window.addEventListener("DOMContentLoaded", function() {
         }
     }
 });</script>
+
+<script src="js/i18n.js"></script>
+<script>
+    const lang = localStorage.getItem("lang") || "hu";
+    document.documentElement.lang = lang;
+    applyTranslations(lang);
+</script>
 
 </body>
 </html>

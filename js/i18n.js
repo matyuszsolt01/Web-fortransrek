@@ -38,7 +38,7 @@ const translations = {
         service_lumber_desc: "Minőségi fűrészáru széles választékban.",
         service_transport: "Szállítás",
         service_transport_desc: "Faanyag szállítás rövid határidővel, saját flottával.",
-        service_cleaning: "Erdőtisztítás",
+        service_cleaning: "Erdőkitermelés",
         service_cleaning_desc: "Terület előkészítés, erdőápolás, tisztítás.",
 
         // Termékeink
@@ -62,13 +62,11 @@ const translations = {
         step3_text: "Saját flottánkkal, gyorsan és biztonságosan házhoz szállítjuk a faanyagot.",
         conditions_title: "Szállítási feltételek",
         cond1_title: "Minimum rendelés:",
-        cond1_text: "5 m³ faanyag",
+        cond1_text: "2 m³ faanyag",
         cond2_title: "Szállítási terület:",
-        cond2_text: "Románia teljes területe",
-        cond3_title: "Külföldi szállítás:",
-        cond3_text: "egyedi egyeztetéssel",
+        cond2_text: "Kovászna megye teljes területe",
         cond4_title: "Rakodás:",
-        cond4_text: "saját gépparkkal",
+        cond4_text: "Saját gépparkkal",
         cond5_title: "Kiszállítás:",
         cond5_text: "24–72 órán belül",
         fleet_title: "Flottánk",
@@ -83,6 +81,10 @@ const translations = {
         usage: "Felhasználás:",
         loading: "Rakodás:",
         advantage: "Előny:",
+
+        // Erdőkitermelés
+        cleaning_title: "Erdőkitermelés",
+        cleaning_text: "Erdők kitermelése és előkészítése — terület előkészítés, erdőápolás és tisztítás.",
 
         // Kapcsolat
         contact_text: "Keress minket bizalommal — válaszolunk minden kérdésre.",
@@ -161,7 +163,8 @@ const translations = {
 
         // Footer
         footer_desc: "Fakitermelés és erdészeti szolgáltatások",
-        footer_rights: "Minden jog fenntartva"
+        footer_copy: "© 2026 ForTransRek S.R.L —",
+        footer_rights: "Minden jog fenntartva."
     },
     ro: {
 
@@ -202,7 +205,7 @@ const translations = {
         service_lumber_desc: "Cherestea de calitate într-o gamă variată.",
         service_transport: "Transport",
         service_transport_desc: "Transport de material lemnos cu termen scurt, flotă proprie.",
-        service_cleaning: "Curățare forestieră",
+        service_cleaning: "Cultivare forestieră",
         service_cleaning_desc: "Pregătire teren, întreținere și curățare forestieră.",
 
         // Termékeink
@@ -226,13 +229,11 @@ const translations = {
         step3_text: "Livrăm materialul lemnos rapid și sigur cu flota noastră proprie.",
         conditions_title: "Condiții de transport",
         cond1_title: "Comandă minimă:",
-        cond1_text: "5 m³ material lemnos",
+        cond1_text: "2 m³ material lemnos",
         cond2_title: "Zonă de livrare:",
-        cond2_text: "Întreaga Românie",
-        cond3_title: "Transport internațional:",
-        cond3_text: "prin acord separat",
+        cond2_text: "Întreaga județ Covasna",
         cond4_title: "Încărcare:",
-        cond4_text: "cu utilaje proprii",
+        cond4_text: "Cu utilaje proprii",
         cond5_title: "Livrare:",
         cond5_text: "în 24–72 ore",
         fleet_title: "Flota noastră",
@@ -247,6 +248,10 @@ const translations = {
         usage: "Utilizare:",
         loading: "Încărcare:",
         advantage: "Avantaj:",
+
+        // Erdőkitermelés
+        cleaning_title: "Cultivare forestieră",
+        cleaning_text: "Servicii de cultivare și întreținere forestieră — pregătire teren, curățare și îngrijire a pădurilor.", 
 
         // Kapcsolat
         contact_text: "Contactați-ne cu încredere — răspundem la toate întrebările.",
@@ -325,6 +330,7 @@ const translations = {
 
         // Footer
         footer_desc: "Exploatare forestieră și servicii silvice",
+        footer_copy: "© 2026 ForTransRek S.R.L —",
         footer_rights: "Toate drepturile rezervate"
     }
 };

@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/background4.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 20px 25px;
+    padding: 15px 20px !important;
 }
 
 nav ul li a {
@@ -153,7 +153,7 @@ nav ul li a:hover::after {
     align-items: center;
     text-align: center;
 
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/background4.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1040,7 +1040,7 @@ html, body {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/background4.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1225,7 +1225,7 @@ body::before {
 .social-nav {
     display: flex;
     align-items: center;
-    padding: 20px 15px;
+    padding: 15px 20px;
     margin-left: 10px;
 }
 
@@ -1233,8 +1233,8 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     background: rgba(255,255,255,0.1);
     transition: 0.3s;
@@ -1246,8 +1246,8 @@ body::before {
 }
 
 .social-nav-link svg {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     transition: 0.3s;
 }
 

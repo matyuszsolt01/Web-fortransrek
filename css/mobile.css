@@ -10,7 +10,7 @@
 @media (max-width: 768px) {
 
     /* --- HAMBURGER --- */
-    .menu-toggle {
+        .menu-toggle {
         display: block;
         position: fixed;
         top: 10px;
@@ -23,6 +23,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        color: white;
+    }
+
+    .menu-toggle:hover {
+        color: #8bc34a;
+        transform: scale(1.1);
+        transition: 0.2s;
+        background: rgba(20,20,20,0.9);
+    }
+
+    .menu-toggle:focus,
+    .menu-toggle:active {
+        background: rgba(20,20,20,0.8);
+        color: white;
+        outline: none;
     }
 
     /* --- NAVBAR --- */
